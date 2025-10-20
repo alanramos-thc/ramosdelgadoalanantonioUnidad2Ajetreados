@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <p>Hola ' . htmlspecialchars($nombre) . ',</p>
                     <p>Recibimos una solicitud para restablecer tu contraseña en Ajetreados.</p>
                     <p>Haz clic en el siguiente enlace para crear una nueva contraseña:</p>
-                    <p><a style="color: #5100bb;" href="http://localhost/ajetreados/generar_nueva_contrasena.php?token=' . urlencode($tokenGenerado) . '">Generar Nueva Contraseña</a></p>
+                    <p><a style="color: #5100bb;" href="http://localhost:8080/generar_nueva_contrasena.php?token=' . urlencode($tokenGenerado) . '">Generar Nueva Contraseña</a></p>
                     <p>Si no solicitaste este cambio, puedes ignorar este mensaje.</p>
                     <p>¡Gracias!<br>El grupo de Ajetreados</p>
                 </div>
